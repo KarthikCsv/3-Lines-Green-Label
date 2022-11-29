@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Lines Green Label</title>
+
+    <link href="/dist/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/shortLogo.png" type="image/x-icon">
+
+    <!-- Header and footer script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("/dist/header.html");
+            $("#footer").load("/dist/footer.html");
+        });
+    </script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <div>
+        <h2 class="pt-32 text-center text-2xl font-bold text-green-700 md:text-4xl">
+            COOKIE POLICY
+        </h2>
+        <p class="mt-5 text-center md:mx-24 mx-4">A cookie helps a website to remember some information regarding your previous settings as in language preference, mobile
+        number, card details and others as well. The main reason is to make your surfing easy and more reliable. We also use
+        cookies for various purposes as for making your experience with us more efficient. Hassle free and satisfying. Under
+        this policy, we will show you relevant advertisements, protection of your data, have better experience of our services.
+</p>
+    </div>
+
+    <div id="footer"></div>
+
+</body>
+
+</html>
